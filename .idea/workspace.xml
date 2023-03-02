@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="26261e2e-cf1d-4275-81e3-3c25783d758d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/app/common/SentUser.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/common/calcNowDate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/common/calculateLink.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/common/calculateMonth.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/common/calculateWeeks.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/common/convertBirth.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/common/createListIntensive.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/common/createListOfSending.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/common/sendEmoEveryDay.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/common/sendOnlyIntensive.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/common/setNewUsersEmo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/common/setNewUsersHW.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/common/setNewWeek.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/controllers/common.conroller.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/helenFunction/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/lib/listSendOfEmoCouse.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/lib/send_0_104.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/lib/send_57_104.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/models/tutorial.model.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/config/db.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/config/db.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/user.controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/user.controller.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/middleware/verifySignUp.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/middleware/verifySignUp.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/routes/auth.routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/routes/auth.routes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2LSkA0sQsUdHreXlx45G4Hu8PJa" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/alexey/node-js-jwt-auth/app/lib&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/opt/PhpStorm-222.3345.135/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/lib" />
+      <recent name="$PROJECT_DIR$/app/common" />
+      <recent name="$PROJECT_DIR$/app/models" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="test" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="test" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.test" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="26261e2e-cf1d-4275-81e3-3c25783d758d" name="Changes" comment="" />
+      <created>1675871724262</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1675871724262</updated>
+      <workItem from="1675871726252" duration="1197000" />
+      <workItem from="1675904274563" duration="4990000" />
+      <workItem from="1675998731376" duration="9000" />
+      <workItem from="1676445887790" duration="1076000" />
+      <workItem from="1676462174988" duration="2363000" />
+      <workItem from="1676484540106" duration="688000" />
+      <workItem from="1676522801886" duration="1774000" />
+      <workItem from="1676544593020" duration="4508000" />
+      <workItem from="1676602995888" duration="357000" />
+      <workItem from="1677420350694" duration="5462000" />
+      <workItem from="1677473744337" duration="599000" />
+      <workItem from="1677495256156" duration="17893000" />
+      <workItem from="1677575509667" duration="658000" />
+      <workItem from="1677585295071" duration="10920000" />
+      <workItem from="1677597269723" duration="614000" />
+      <workItem from="1677646514958" duration="1267000" />
+      <workItem from="1677682340229" duration="3459000" />
+      <workItem from="1677731431920" duration="627000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
