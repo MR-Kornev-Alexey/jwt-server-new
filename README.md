@@ -1,5 +1,11 @@
 # Node.js – JWT Authentication & Authorization example with JSONWebToken & Sequelize
 nYEw-3Xv3mAq
+
+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
+
+https://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@github.com/MR-Kornev-Alexey/jwt-server-new.git
+
+https://token@github.com/username/repo.git
 ## User Registration, User Login and Authorization process.
 The diagram shows flow of how we implement User Registration, User Login and Authorization process.
 
