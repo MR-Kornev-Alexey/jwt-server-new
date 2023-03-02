@@ -1,34 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="26261e2e-cf1d-4275-81e3-3c25783d758d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/app/common/SentUser.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/common/calcNowDate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/common/calculateLink.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/common/calculateMonth.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/common/calculateWeeks.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/common/convertBirth.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/common/createListIntensive.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/common/createListOfSending.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/common/sendEmoEveryDay.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/common/sendOnlyIntensive.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/common/setNewUsersEmo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/common/setNewUsersHW.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/common/setNewWeek.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/controllers/common.conroller.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/helenFunction/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/lib/listSendOfEmoCouse.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/lib/send_0_104.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/lib/send_57_104.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/models/tutorial.model.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/config/db.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/config/db.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/user.controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/user.controller.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/middleware/verifySignUp.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/middleware/verifySignUp.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/routes/auth.routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/routes/auth.routes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
+    <list default="true" id="26261e2e-cf1d-4275-81e3-3c25783d758d" name="Changes" comment="02 02 23 new start">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -120,7 +94,23 @@
       <workItem from="1677646514958" duration="1267000" />
       <workItem from="1677682340229" duration="3459000" />
       <workItem from="1677731431920" duration="627000" />
+      <workItem from="1677761200896" duration="865000" />
     </task>
+    <task id="LOCAL-00001" summary="02 02 23 new start">
+      <created>1677761340178</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1677761340178</updated>
+    </task>
+    <task id="LOCAL-00002" summary="02 02 23 new start">
+      <created>1677761366535</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1677761366535</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -136,5 +126,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="02 02 23 new start" />
+    <option name="LAST_COMMIT_MESSAGE" value="02 02 23 new start" />
   </component>
 </project>
