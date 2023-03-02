@@ -1,11 +1,12 @@
 module.exports = {
-  HOST: "localhost",
-  USER: "root",
-  PASSWORD: "123456",
-  DB: "testdb",
+  HOST: "31.31.198.186",
+  USER: "u1343110_bot",
+  PASSWORD: "nanaec67",
+  DB: "u1343110_bot",
   dialect: "mysql",
+  charset: 'utf8mb4',
   pool: {
-    max: 5,
+    max: 19,
     min: 0,
     acquire: 30000,
     idle: 10000

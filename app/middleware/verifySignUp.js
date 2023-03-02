@@ -28,7 +28,6 @@ checkDuplicateUsernameOrEmail = (req, res, next) => {
         });
         return;
       }
-
       next();
     });
   });
