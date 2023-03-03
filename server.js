@@ -18,10 +18,22 @@ const setNewEmo = require('./app/common/setNewUsersEmo')
 const sendOnlyIntensive = require('./app/common/sendOnlyIntensive')
 //==========================================================================
 
-const corsOptions = {
-  origin: "http://localhost:8081"
-};
+// const corsOptions = {
+//   origin: "http://localhost:8081"
+// };
 
+
+let corsOptions;
+if (process.env.NODE_ENV === 'production') {
+  corsOptions = {
+    // origin: 'https://example.com',
+    origin: ' 95.163.241.214',
+  };
+} else {
+  corsOptions = {
+    origin: 'http://localhost:8080',
+  };
+}
 app.use(cors(corsOptions));
 
 // parse requests of content-type - application/json
@@ -42,9 +54,16 @@ db.sequelize.sync();
 // });
 
 // simple route
-app.get("/", (req, res) => {
-  res.json({ message: "Welcome to bezkoder application." });
-});
+// app.get("/", (req, res) => {
+//   res.json({ message: "Welcome to bezkoder application." });
+// });
+const path = require('path')
+app.use(express.static(path.join(__dirname, 'dist')))
+
+// Обработка маршрутов на стороне клиента
+app.get('*', function(req, res) {
+  res.sendFile(path.join(__dirname, 'dist', 'index.html'))
+})
 
 // routes
 require('./app/routes/auth.routes')(app);

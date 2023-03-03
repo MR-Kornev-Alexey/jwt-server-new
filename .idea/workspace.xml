@@ -2,7 +2,46 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="26261e2e-cf1d-4275-81e3-3c25783d758d" name="Changes" comment="02 02 23 new start">
+      <change afterPath="$PROJECT_DIR$/dist/css/app.f07c0717.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/css/chunk-vendors.3887d72d.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/figure-1.f749a016.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/figure-2.e44c7f55.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/figure-3.618af47e.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/figure-5.9f9281cd.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/for-courses-1.e2043432.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/for-courses-11.4dd4980e.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/for-courses-3.feca962a.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/for-courses-4.e701dbff.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/for-courses-6.a8a103d3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/for-courses-8.93d9caf8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/for-courses-9.31acfc87.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/icon-1.33e5fc02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/kid.3211fbf1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/lena-front-new.20937aa0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/lena-front.7dc18ecb.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/lena-main-new-1.57e827d3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/lena-main.ad89ecdf.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/logo.85c7af64.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/round-8.f1dab3db.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/shadow-10.358902d7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/js/313.e7aa3956.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/js/313.e7aa3956.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/js/443.acc114f7.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/js/443.acc114f7.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/js/49.5877c9f9.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/js/49.5877c9f9.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/js/638.1db14030.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/js/638.1db14030.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/js/app.3b36ad68.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/js/app.3b36ad68.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/js/chunk-vendors.2810fd7c.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/js/chunk-vendors.2810fd7c.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecosystem.config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,19 +72,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/alexey/node-js-jwt-auth/app/lib&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;/opt/PhpStorm-222.3345.135/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/home/alexey/node-js-jwt-auth",
+    "nodejs_package_manager_path": "npm",
+    "ts.external.directory.path": "/opt/PhpStorm-222.3345.135/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/app/lib" />
       <recent name="$PROJECT_DIR$/app/common" />
       <recent name="$PROJECT_DIR$/app/models" />
@@ -101,7 +141,11 @@
       <workItem from="1677765283181" duration="294000" />
       <workItem from="1677765688394" duration="110000" />
       <workItem from="1677765803612" duration="114000" />
-      <workItem from="1677766027383" duration="824000" />
+      <workItem from="1677766027383" duration="1029000" />
+      <workItem from="1677768763014" duration="790000" />
+      <workItem from="1677770207239" duration="12000" />
+      <workItem from="1677822208470" duration="689000" />
+      <workItem from="1677827877905" duration="1194000" />
     </task>
     <task id="LOCAL-00001" summary="02 02 23 new start">
       <created>1677761340178</created>
@@ -138,7 +182,21 @@
       <option name="project" value="LOCAL" />
       <updated>1677764787492</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="02 02 23 new start">
+      <created>1677766965584</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1677766965584</updated>
+    </task>
+    <task id="LOCAL-00007" summary="02 02 23 new start">
+      <created>1677767019156</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1677767019156</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

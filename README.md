@@ -1,6 +1,15 @@
 # Node.js – JWT Authentication & Authorization example with JSONWebToken & Sequelize
 nYEw-3Xv3mAq
 
+
+Вы создали сервер «Blond Helium» с Ubuntu 20.04 LTS, IP-адрес 95.163.241.214
+
+
+ssh root@95.163.241.214
+
+Логин: root
+Пароль: @4FxvJRCuY9t
+
 ## User Registration, User Login and Authorization process.
 The diagram shows flow of how we implement User Registration, User Login and Authorization process.
 
