@@ -31,7 +31,7 @@ if (process.env.NODE_ENV === 'production') {
   };
 } else {
   corsOptions = {
-    origin: 'http://localhost:8080',
+    origin: 'http://localhost:8081',
   };
 }
 app.use(cors(corsOptions));
