@@ -92,7 +92,7 @@ function initial() {
   });
 }
 //============================= helen ======================================
-sendUsersNew(helen).then(r => {})
+// sendUsersNew(helen).then(r => {})
 // sendEmoEveryDay(helen).then(r=>{})
 helen.start(async (ctx) => {
   await HelenFunction.startStep (ctx)

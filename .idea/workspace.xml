@@ -1,19 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="26261e2e-cf1d-4275-81e3-3c25783d758d" name="Changes" comment="03 03 23 frontend prob v1">
-      <change afterPath="$PROJECT_DIR$/app/common/sendNewIntensive.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/common/SentUser.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/common/SentUser.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/common/createListIntensive.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/common/createListIntensive.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/common/createListOfSending.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/common/createListOfSending.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/common/sendOnlyIntensive.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/common/sendOnlyIntensive.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/common/setNewUsersHW.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/common/setNewUsersHW.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/common.conroller.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/common.conroller.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/lib/listSendOfEmoCouse.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/lib/listSendOfEmoCouse.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/lib/send_0_104.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/lib/send_0_104.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
-    </list>
+    <list default="true" id="26261e2e-cf1d-4275-81e3-3c25783d758d" name="Changes" comment="14 03 23 sending new" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -135,7 +123,7 @@
       <workItem from="1678681527264" duration="608000" />
       <workItem from="1678687794191" duration="192000" />
       <workItem from="1678768072231" duration="611000" />
-      <workItem from="1678775840954" duration="1779000" />
+      <workItem from="1678775840954" duration="2000000" />
     </task>
     <task id="LOCAL-00001" summary="02 02 23 new start">
       <created>1677761340178</created>
@@ -200,7 +188,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677831094857</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="14 03 23 sending new">
+      <created>1678778220731</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1678778220731</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -221,6 +216,7 @@
     <MESSAGE value="02 02 23 new start" />
     <MESSAGE value="03 03 23 frontend prob" />
     <MESSAGE value="03 03 23 frontend prob v1" />
-    <option name="LAST_COMMIT_MESSAGE" value="03 03 23 frontend prob v1" />
+    <MESSAGE value="14 03 23 sending new" />
+    <option name="LAST_COMMIT_MESSAGE" value="14 03 23 sending new" />
   </component>
 </project>
