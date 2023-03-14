@@ -16,6 +16,7 @@ const sendEmoEveryDay = require('./app/common/sendEmoEveryDay')
 const setNewUsersHW = require('./app/common/setNewUsersHW')
 const setNewEmo = require('./app/common/setNewUsersEmo')
 const sendOnlyIntensive = require('./app/common/sendOnlyIntensive')
+const  sendNewHomeWorks = require('./app/common/sendNewIntensive')
 //==========================================================================
 
 // const corsOptions = {
@@ -91,7 +92,7 @@ function initial() {
   });
 }
 //============================= helen ======================================
-// sendUsersNew(helen).then(r => {})
+sendUsersNew(helen).then(r => {})
 // sendEmoEveryDay(helen).then(r=>{})
 helen.start(async (ctx) => {
   await HelenFunction.startStep (ctx)
@@ -99,6 +100,10 @@ helen.start(async (ctx) => {
 helen.command('new_hw', async (ctx) => {
         await ctx.replyWithHTML(`<b>Команда new_hw</b>`)
         await setNewUsersHW(helen)
+});
+helen.command('send_new_hw', async (ctx) => {
+  await ctx.replyWithHTML(`<b>Команда send_new_hw</b>`)
+  await sendNewHomeWorks(helen)
 });
 helen.command('new_emo', async (ctx) => {
   await ctx.replyWithHTML(`<b>Команда new_emo</b>`)

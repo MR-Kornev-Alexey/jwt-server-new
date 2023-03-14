@@ -8,6 +8,12 @@ exports.createListOFSending = async () => {  //command is list
     // console.log('newDataTest ---- ', newDataTest)
     return await createList56.createListBefore56(newData)
 }
+exports.createListOFSendingNewHW = async () => {  //command is list
+    const newData = await callDb.findNewIntensive() // формирование  списка новых юзеров
+    // const newDataTest = await callDb.findAllTest() // формирование тестового списка
+    console.log('newDataTest ---- ', newData)
+    return await createList56.createListBefore56(newData)
+}
 
 exports.createListEmo = async () => {  //command is list
     const newData = await callDb.findAllEmo() // формирование реального списка emo

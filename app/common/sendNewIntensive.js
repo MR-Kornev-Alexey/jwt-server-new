@@ -1,10 +1,11 @@
 const getDate = require("./calcNowDate");
 const createList = require("./createListOfSending");
+const callDb = require("../controllers/common.conroller");
 
 
-async function sendOnlyIntensive(helen) {
+async function sendNewIntensive(helen) {
     const date = await getDate.calcNowDate()
-    const newArrayNew = await createList.createListEmo()
+    const newArrayNew = await createList.createListOFSendingNewHW()
     console.log('newArrayNew --- ', newArrayNew)
     for (let i = 0; i < newArrayNew.length; i++) {
         setTimeout(() => {
@@ -16,11 +17,12 @@ async function sendOnlyIntensive(helen) {
                     } else {
                         // console.log(newArrayIntensive[i])
                         try {
-                            await helen.telegram.sendMessage(newArrayNew[i].chatId, `❤️ Доброго времени суток ${newArrayNew[i].name}❤️\n Тестовая рассылка ${date}\n` +
-                                `\n`
+                            await helen.telegram.sendMessage(newArrayNew[i].chatId, `❤️ Доброго времени суток ${newArrayNew[i].name}\nДЗ от ${date} (${newArrayNew[i].indexWeek})\n` +
+                                `\n` +
+                                `${newArrayNew[i].link}\n`
                             )
-                            helen.telegram.sendMessage(1081994928, `Рассылка для ${newArrayNew[i].name} отправлено`).then(r => {
-                            })
+                            await callDb.saveSandingToDB(newArrayNew[i], newArrayNew[i].link, newArrayNew[i].indexVideo)
+                            helen.telegram.sendMessage(1081994928, `ДЗ ${newArrayNew[i].name} отправлено`).then(r => {})
                         } catch (error) {
                             console.log(error);
                         }
@@ -33,4 +35,4 @@ async function sendOnlyIntensive(helen) {
     }
 }
 
-module.exports = sendOnlyIntensive;
+module.exports = sendNewIntensive;

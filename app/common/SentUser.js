@@ -5,7 +5,7 @@ const callDb = require("../controllers/common.conroller");
 async function sendUsers(helen) {
     const date= await getDate.calcNowDate()
     const newArrayIntensive = await createList.createListOFSending()
-    console.log('newArrayIntensive --- ', newArrayIntensive)
+    // console.log('newArrayIntensive --- ', newArrayIntensive)
     for (let i = 0; i < newArrayIntensive.length; i++) {
         setTimeout(() => {
             try {
@@ -16,12 +16,12 @@ async function sendUsers(helen) {
                     } else {
                         // console.log(newArrayIntensive[i])
                         try {
-                            await helen.telegram.sendMessage(newArrayIntensive[i].chatId, `❤️ Доброго времени суток ${newArrayIntensive[i].name}❤️\nДЗ от ${date} (${newArrayIntensive[i].indexWeek})\n` +
+                            await helen.telegram.sendMessage(newArrayIntensive[i].chatId, `❤️ Добрый день ${newArrayIntensive[i].name}❤️\nДЗ от ${date} (${newArrayIntensive[i].indexWeek})\n` +
                                 `\n` +
                                 `${newArrayIntensive[i].link}\n`
                             )
-                            await callDb.saveSandingToDB(newArrayIntensive[i], newArrayIntensive[i].link, newArrayIntensive[i].indexVideo)
-                            helen.telegram.sendMessage(1081994928, `ДЗ ${newArrayIntensive[i].name} отправлено`).then(r => {})
+                            // await callDb.saveSandingToDB(newArrayIntensive[i], newArrayIntensive[i].link, newArrayIntensive[i].indexVideo)
+                            helen.telegram.sendMessage(1081994928, `✅ ДЗ ${newArrayIntensive[i].name} отправлено`).then(r => {})
                         } catch (error) {
                             console.log(error);
                         }

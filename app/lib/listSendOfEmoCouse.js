@@ -127,6 +127,13 @@ module.exports = [
             subTitle: 'Материалы для скачивания',
             link: 'http://elenakorneva.site/assets/pdf/types-of-emo.pdf',
             time: '0'
+        },
+        {
+            block: 'Работа с положительными эмоциями',
+            title: 'Материалы для скачивания',
+            subTitle: 'таблица эмоций',
+            link: 'http://elenakorneva.site/img/table-emo.pdf',
+            time: '0'
         }
     ],
     [ //5 день
@@ -223,13 +230,6 @@ module.exports = [
             subTitle: 'Почему вопит',
             link: 'https://www.youtube.com/watch?v=rt932Hq8A-I',
             time: '5.45'
-        },
-        {
-            block: 'Работа с отрицательными эмоциями',
-            title: 'Общие ДЗ по эмоциям',
-            subTitle: 'Домашнее задание №2',
-            link: 'https://www.youtube.com/watch?v=50F5qfjpN3g',
-            time: '1.35'
         }
     ],
     [//11 day
@@ -262,6 +262,13 @@ module.exports = [
         }
     ],
     [//13 day
+        {
+            block: 'Работа с отрицательными эмоциями',
+            title: 'Общие ДЗ по эмоциям',
+            subTitle: 'Домашнее задание №2',
+            link: 'https://www.youtube.com/watch?v=50F5qfjpN3g',
+            time: '1.35'
+        },
         {
             block: 'Работа с отрицательными эмоциями',
             title: 'Общие ДЗ по эмоциям',
@@ -656,9 +663,9 @@ module.exports = [
         {
             block: 'Финал',
             title: 'Спасибо за участие',
-            subTitle: 'Прощальное слово',
-            link: 'В процессе ...',
-            time: '1.30'
+            subTitle: 'И в заключении...',
+            link: 'https://youtu.be/WuyVjbz-H-A',
+            time: '2.28'
         }
     ]
 ]

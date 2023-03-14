@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="26261e2e-cf1d-4275-81e3-3c25783d758d" name="Changes" comment="03 03 23 frontend prob" />
+    <list default="true" id="26261e2e-cf1d-4275-81e3-3c25783d758d" name="Changes" comment="03 03 23 frontend prob v1">
+      <change afterPath="$PROJECT_DIR$/app/common/sendNewIntensive.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/common/SentUser.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/common/SentUser.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/common/createListIntensive.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/common/createListIntensive.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/common/createListOfSending.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/common/createListOfSending.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/common/sendOnlyIntensive.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/common/sendOnlyIntensive.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/common/setNewUsersHW.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/common/setNewUsersHW.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/common.conroller.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/common.conroller.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/lib/listSendOfEmoCouse.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/lib/listSendOfEmoCouse.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/lib/send_0_104.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/lib/send_0_104.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -36,7 +48,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/alexey/node-js-jwt-auth&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/alexey/node-js-jwt-auth/app/common&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;ts.external.directory.path&quot;: &quot;/opt/PhpStorm-222.3345.135/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
@@ -44,9 +56,10 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/app/lib" />
       <recent name="$PROJECT_DIR$/app/common" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/dist" />
+      <recent name="$PROJECT_DIR$/app/lib" />
       <recent name="$PROJECT_DIR$/app/models" />
     </key>
   </component>
@@ -105,6 +118,24 @@
       <workItem from="1677770207239" duration="12000" />
       <workItem from="1677822208470" duration="689000" />
       <workItem from="1677827877905" duration="2902000" />
+      <workItem from="1677830855122" duration="789000" />
+      <workItem from="1677831649957" duration="611000" />
+      <workItem from="1677916313801" duration="694000" />
+      <workItem from="1677991430137" duration="625000" />
+      <workItem from="1678076656724" duration="2093000" />
+      <workItem from="1678166432719" duration="619000" />
+      <workItem from="1678248583826" duration="615000" />
+      <workItem from="1678305728789" duration="12000" />
+      <workItem from="1678336823248" duration="636000" />
+      <workItem from="1678426120454" duration="609000" />
+      <workItem from="1678427144923" duration="1417000" />
+      <workItem from="1678512585661" duration="1210000" />
+      <workItem from="1678595639391" duration="608000" />
+      <workItem from="1678653561247" duration="328000" />
+      <workItem from="1678681527264" duration="608000" />
+      <workItem from="1678687794191" duration="192000" />
+      <workItem from="1678768072231" duration="611000" />
+      <workItem from="1678775840954" duration="1779000" />
     </task>
     <task id="LOCAL-00001" summary="02 02 23 new start">
       <created>1677761340178</created>
@@ -162,7 +193,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677829118508</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="03 03 23 frontend prob v1">
+      <created>1677831094857</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1677831094857</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -182,6 +220,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="02 02 23 new start" />
     <MESSAGE value="03 03 23 frontend prob" />
-    <option name="LAST_COMMIT_MESSAGE" value="03 03 23 frontend prob" />
+    <MESSAGE value="03 03 23 frontend prob v1" />
+    <option name="LAST_COMMIT_MESSAGE" value="03 03 23 frontend prob v1" />
   </component>
 </project>

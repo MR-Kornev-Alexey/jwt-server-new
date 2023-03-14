@@ -7,7 +7,7 @@ async function setNewUsersHW(helen) {
     for (let i = 0; i < newArrayUsers.length; i++) {
         // console.log('newArrayUsers --- ', newArrayUsers[i].dataValues)
         const week = await calculateWeeksSinceBD(newArrayUsers[i].dataValues.birthday_telegram)
-        callDb.createSendHW(newArrayUsers[i].dataValues, week)
+        await callDb.createSendHW(newArrayUsers[i].dataValues, week)
     }
 }
 module.exports = setNewUsersHW;

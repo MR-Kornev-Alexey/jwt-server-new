@@ -80,6 +80,17 @@ exports.findAllIntensive = async (req, res) => {
             return err;
         });
 };
+exports.findNewIntensive = async (req, res) => {
+    return await dataBot.Intensive.findAll({ where: { note: 'new' }})
+        .then(user => {
+            // console.log(user)
+            return user;
+        })
+        .catch(err => {
+            console.log(err)
+            return err;
+        });
+};
 exports.findIntensiveCheck = async (data, res) => {
     return await dataBot.Intensive.findAll({
         where: {
@@ -176,7 +187,8 @@ exports.createSendHW = async ( data, indexWeek) => {
         baby_name_telegram: data.baby_name_telegram,
         birthday_telegram: data.birthday_telegram,
         chatId: data.chatId,
-        index_week: indexWeek
+        index_week: indexWeek,
+        note: "new"
     };
     console.log('newUser = ', newUser )
     dataBot.Intensive.create(newUser)
